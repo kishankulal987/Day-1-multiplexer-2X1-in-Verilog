@@ -29,8 +29,9 @@ Advantage: Represents the hardware at a low level.
 
 circuit Diagram
 
-Below is the schematic diagram for the 2x1 MUX.
+Below is the curcuit diagram for the 2x1 MUX.
 ![2x1 mux diagram](https://github.com/user-attachments/assets/006509e6-8b04-4d61-ab0a-4bf81ec90f2f)
+
 
 Simulation Output:
 
@@ -41,7 +42,11 @@ Below is the simultion waveform for the 2x1 MUX.
 Description: A testbench to verify the functionality of all three MUX implementations.
 Functionality:
 Inputs: 2-bit vector I (I[0], I[1]) and select line s.
+
 Outputs: y_conditional, y_dataflow, and y_gate for the three designs.
+
 Tests all combinations of I (00, 01, 10, 11) and s (0, 1) using nested loops.
+
 Displays results with a 10-time-unit delay using $display.
+
 Purpose: Confirms all implementations produce correct, identical outputs.
