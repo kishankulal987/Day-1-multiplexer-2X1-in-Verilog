@@ -29,7 +29,6 @@ Advantage: Represents the hardware at a low level.
 
 circuit Diagram
 
-Below is the curcuit diagram for the 2x1 MUX.
 ![2x1 mux diagram](https://github.com/user-attachments/assets/006509e6-8b04-4d61-ab0a-4bf81ec90f2f)
 
 
